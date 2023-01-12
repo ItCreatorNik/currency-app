@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(194, 207, 249);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.header__currencies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header__currency {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+.header__label {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}

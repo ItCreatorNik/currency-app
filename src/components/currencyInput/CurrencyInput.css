@@ -1,0 +1,20 @@
+.CurrencyInput{
+    margin: 0 auto 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+input,select{
+    background: white;
+    border:0;
+    color:black;
+}
+input{
+    padding-left: 1rem;
+    width: 30rem;
+    height: 4rem;
+}
+select{
+    padding: 15px;
+}
